@@ -4,7 +4,7 @@
 const nuevaString = "Hola mundo";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 5;
+const nuevoNum = 8;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -161,7 +161,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.floor(num)
+  return Math.ceil(num)
 }
 
 function numeroRandom() {
@@ -241,7 +241,7 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length===1){
-    if(letra===a,e,i,o,u){
+    if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
       return "Es vocal"
     }
     else{
